@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Left{
+    font-weight: bold;
+}
+.Right_links{
+    display:flex;
+    justify-content: space-between;
+}
+.top-body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+}
+.Hero-text{
+    font-size: 48px;
+    font-weight: 900;
+}
+.signup{
+    margin-top: 12px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+li{
+    padding:20px;
+    list-style-type: none;
+    text-decoration: none;
+}
+a{
+    cursor: pointer;
+}
